@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/caferestoapp-ui.github.io/static/css/main.304adb61.chunk.css",
+    "main.js": "/caferestoapp-ui.github.io/static/js/main.75c1928a.chunk.js",
+    "main.js.map": "/caferestoapp-ui.github.io/static/js/main.75c1928a.chunk.js.map",
+    "runtime-main.js": "/caferestoapp-ui.github.io/static/js/runtime-main.8ab5ff9d.js",
+    "runtime-main.js.map": "/caferestoapp-ui.github.io/static/js/runtime-main.8ab5ff9d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/caferestoapp-ui.github.io/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3e9fe0d7.chunk.js": "/caferestoapp-ui.github.io/static/js/2.3e9fe0d7.chunk.js",
+    "static/js/2.3e9fe0d7.chunk.js.map": "/caferestoapp-ui.github.io/static/js/2.3e9fe0d7.chunk.js.map",
+    "static/js/3.dabe468b.chunk.js": "/caferestoapp-ui.github.io/static/js/3.dabe468b.chunk.js",
+    "static/js/3.dabe468b.chunk.js.map": "/caferestoapp-ui.github.io/static/js/3.dabe468b.chunk.js.map",
+    "index.html": "/caferestoapp-ui.github.io/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/caferestoapp-ui.github.io/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.304adb61.chunk.css.map": "/caferestoapp-ui.github.io/static/css/main.304adb61.chunk.css.map",
+    "static/js/2.3e9fe0d7.chunk.js.LICENSE.txt": "/caferestoapp-ui.github.io/static/js/2.3e9fe0d7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/caferestoapp-ui.github.io/static/media/bg-header.cf04eded.jpg",
+    "static/media/logo.7706af61.png": "/caferestoapp-ui.github.io/static/media/logo.7706af61.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ab5ff9d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.3e9fe0d7.chunk.js",
+    "static/css/main.304adb61.chunk.css",
+    "static/js/main.75c1928a.chunk.js"
+  ]
+}
