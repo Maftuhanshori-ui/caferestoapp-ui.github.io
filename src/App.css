@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+:root{
+  --primary-black: #000;
+  --primary-orange: #f9ab00;
+  --primary-light: rgb(255, 255, 255);
+  --primary-blue: rgb(0, 140, 255);
+  --primary-hover-blue: rgb(0, 180, 255);
+
+}
+
+body{
+  font-family: "Roboto Condenseds", sans-serif;
+}
+
+/***************Navbar*****************/
+.nav{
+  z-index: 2;
+}
+
+.logo{
+  width: 16.25rem;
+}
+
+/***************Nav Link*****************/
+nav a.nav-link{
+  
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-black)!important;
+  border-top:0.1875rem var(--primary-light);
+} 
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav >li > a.active, .navbar-nav >li > a.active:focus{
+  border-top:0.1875rem solid var(--primary-orange);
+
+}
+
+.navbar-nav >li > a:hover{
+  border-top:0.1875rem solid var(--primary-orange);
+}
+
+/***************Header*****************/
+.header-wraper{
+  position: relative;
+  background: url(bg-header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Roboto Condenseds", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--primary-orange);
+  font-size: 120px;
+  font-family: "Caveat", sans-serif;
+}
+.main-info p{
+  color: var(--primary-light);
+  font-size: 15px;
+  letter-spacing: 0;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Roboto Condenseds", sans-serif;
+}
+
+/***************Typed Text*****************/
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-light);
+}
+
+/***************Button Header*****************/
+.btn-main-offer{
+text-transform: uppercase;
+border-radius: 0;
+padding: 0.625rem 0.75rem 0.75rem  0.75rem;
+color: var(--primary-light);
+margin: 2rem; 
+background-color: var(--primary-blue);
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: rgb(3, 67, 119);
+  color: var(--primary-light);
+  transition: .2s ease-in-out;
+}
+
+/***************Particles*****************/
+.tsparticles-canvas-el{
+position: absolute;
+height: 100vh;
+width: 100vw;
+z-index: 1;
+}
+
+
+/***************Footer*****************/
+footer{
+  border-top: 1px ;
+  padding-top: 50px;
+  background-color: #cc8b00;
+  color: white;
+  
+}
+.list-group-item{
+  color:rgb(43, 43, 43);
+}
+
+@media(max-width:768px){
+  .particles-canvas{
+    display: none;
+  }
+}
